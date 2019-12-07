@@ -29,7 +29,7 @@ function getCityWeather() {
   const selectedCity = getSelectedCity();
 
   // 2. send selected city to API to get weather forecast
-  const url = 'http://cloud.hypbox.com/weather/' + selectedCity[0];
+  const url = 'https://cloud.hypbox.com/weather/' + selectedCity[0];
 
   $.ajax({
     url: url,
